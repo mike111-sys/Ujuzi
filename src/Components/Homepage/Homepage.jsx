@@ -68,16 +68,16 @@ const Homepage = () => {
 
       {/* WhatsApp Button with fade-in and scale animation */}
       <motion.a
-        className="mt-6 px-6 py-3 sm:px-8 sm:py-4 bg-white text-blue-600 rounded-lg text-base sm:text-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300 transform hover:scale-105 shadow-lg"
-        href="https://wa.me/254741238738" // Corrected link
-        target="_blank" // Open in a new tab
-        rel="noopener noreferrer" // Security best practice
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.8, delay: 1.6 }}
-      >
-        Get in Touch on WhatsApp
-      </motion.a>
+  className="mt-6 px-6 py-3 sm:px-8 sm:py-4 bg-blue-600 text-white rounded-lg text-base sm:text-lg font-semibold hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
+  href="https://wa.me/254741238738" // Corrected link
+  target="_blank" // Open in a new tab
+  rel="noopener noreferrer" // Security best practice
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.8, delay: 1.6 }}
+>
+  Get in Touch on WhatsApp
+</motion.a>
     </div>
   );
 };
