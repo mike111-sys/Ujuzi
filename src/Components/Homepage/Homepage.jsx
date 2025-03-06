@@ -53,7 +53,7 @@ const Homepage = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.2 }}
       >
-        At Ujuzi Creations, we have a talented team of developers, designers, and video editors who are passionate about turning your ideas into reality. Whether you need a stunning website, eye-catching designs, or professional video content, we’ve got you covered.
+        At Ujuzi Digital Creations, we have a talented team of developers, designers, and video editors who are passionate about turning your ideas into reality. Whether you need a stunning website, eye-catching designs, or professional video content, we’ve got you covered.
       </motion.p>
 
       {/* Call to Action with fade-in animation */}
