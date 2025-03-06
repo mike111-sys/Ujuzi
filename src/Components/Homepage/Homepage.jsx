@@ -33,7 +33,7 @@ const Homepage = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.7 }}
       >
-        Exciting Things Are on the Way!
+        Something Amazing is Coming!
       </motion.h1>
 
       {/* Paragraph 1 with fade-in animation */}
@@ -43,26 +43,38 @@ const Homepage = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1 }}
       >
-        🚀 Our website is currently under construction as we work hard to bring you a seamless and stunning digital experience. But don’t let that stop you—we’re fully operational and ready to bring your ideas to life!
+        🚀 Our website is currently under development as we work hard to bring you an even better digital experience. But don’t let that stop you—we’re fully operational and ready to take on your projects!
       </motion.p>
 
       {/* Paragraph 2 with fade-in animation */}
       <motion.p
-        className="text-base sm:text-lg md:text-xl text-gray-100 mb-6"
+        className="text-base sm:text-lg md:text-xl text-gray-100 max-w-2xl mb-6"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.2 }}
       >
-        Whether you have a project in mind or need expert advice, we’re here to help. Let’s create something extraordinary together!
+        At Ujuzi Creations, we have a talented team of developers, designers, and video editors who are passionate about turning your ideas into reality. Whether you need a stunning website, eye-catching designs, or professional video content, we’ve got you covered.
       </motion.p>
 
-      {/* Button with fade-in and scale animation */}
+      {/* Call to Action with fade-in animation */}
+      <motion.p
+        className="text-base sm:text-lg md:text-xl text-gray-100 max-w-2xl mb-6"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 1.4 }}
+      >
+        Let’s create something extraordinary together. Reach out to us today!
+      </motion.p>
+
+      {/* WhatsApp Button with fade-in and scale animation */}
       <motion.a
         className="mt-6 px-6 py-3 sm:px-8 sm:py-4 bg-white text-blue-600 rounded-lg text-base sm:text-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300 transform hover:scale-105 shadow-lg"
-        href="https://wa.me/254741238738"
+        href="https://wa.me/254741238738" // Corrected link
+        target="_blank" // Open in a new tab
+        rel="noopener noreferrer" // Security best practice
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.8, delay: 1.5 }}
+        transition={{ duration: 0.8, delay: 1.6 }}
       >
         Get in Touch on WhatsApp
       </motion.a>
